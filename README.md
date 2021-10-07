@@ -9,7 +9,7 @@ language by language basis.
 
 ```bash
 python3 -m venv env
-source ./env/bin/active
+source ./env/bin/activate
 python setup.py develop
 ```
 

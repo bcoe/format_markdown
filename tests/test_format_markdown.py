@@ -20,5 +20,4 @@ with open("./tests/fixtures/dotnet.md", "r", encoding="utf-8") as fh:
 class FormatMarkdownTests(TestCase):
     def test_converts_dotnet_format_to_standard_format(self):
         fmd = format(dotnet)
-        print(fmd)
-        assert False
+        assert '* feat: add BigQuery Storage Write API v1' in fmd
